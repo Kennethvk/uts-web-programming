@@ -1,0 +1,39 @@
+.nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-cover{
+    width: 200px;
+}
+
+.list-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    gap: 0.3rem;
+}
+
+.card-custom{
+    width: 17rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-custom img{
+    height: 20rem;
+    object-fit: stretch;
+}
+
+.book-detail img{
+    width: 20rem;
+}
+
+@media only screen and (max-width: 991px){
+    .nav-container{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
